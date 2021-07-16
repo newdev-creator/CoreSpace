@@ -1,0 +1,44 @@
+
+body {
+    padding: 20px;
+    /*background-color: lightgreen;*/
+    background-image: url(../Images/Phone-Wallpapers-High-Quality.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    back
+    
+}
+
+.header__title, .main__paragraphe {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    color: azure;
+    margin-top: 20%;
+}
+
+.header__title {
+    font-size: 700;
+}
+
+.main__paragraphe {
+    font-size: larger;
+    padding: 2em;
+    -webkit-box-shadow: 0px 2px 22px 8px rgba(231,251,255,0.74); 
+    box-shadow: 0px 2px 22px 8px rgba(231,251,255,0.74);
+    margin: 0;
+}
+
+.main__answers {
+    justify-content: center;
+    display: flex;
+    margin: 3em;
+}
+
+.main__btnOui, .main__btnNon {
+    width: 10em;
+    height: 6em;
+    margin: 0.5em;
+    border-radius: 50%;
+    -webkit-box-shadow: -2px 3px 20px 4px rgba(0,0,0,0.41); 
+    box-shadow: -2px 3px 20px 4px rgba(0,0,0,0.41);
+}
