@@ -62,5 +62,5 @@ function handleNon() {
     }
 }
 
-const btnOui = document.querySelector('.main__btnOui').addEventListener('click', handleOui);
-const btnNon = document.querySelector('.main__btnNon').addEventListener('click', handleNon);
+const btnOui = document.querySelector('.main__btnOui').addEventListener('touchstart', handleOui);
+const btnNon = document.querySelector('.main__btnNon').addEventListener('touchstart', handleNon);
